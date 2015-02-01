@@ -9,6 +9,9 @@
 - **[Python]** Speech paramter conversion
 - **[Go]** Waveform generation
 
+
+すべてをフルスクラッチで書くのは大変なので、楽をするために、信号処理のバックエンドにはSPTKとWORLDを使っています。Cで書きたくなかったので、Goでラップしたものを使っていました。
+
 ## おぼえがき
 
 ### 音声からの特徴抽出
