@@ -14,11 +14,11 @@ mcep:
    n_init: 2
    min_covar: 1.0e-10
    params: wm
-   dump_path: ./model/gmm_clb_to_slt.pkl
+   dump_path: gmm_clb_to_slt.pkl
 
 # GMM for global variance
 gv:
    num_mixtures: 1
    covariance_type: full
    min_covar: 1.0e-27
-   dump_path: ./model/gv_gmm_clb.pkl
+   dump_path: gv_gmm_clb.pkl
